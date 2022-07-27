@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("weather-2.jpg");
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.h1 {
+  color: aqua;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+
+
+.container{
+  background-color: white;
+  padding: 100px;
+  border-radius: 35px;
+  width: 95%;
+  max-width: 420px;
+  margin: 5px;
+
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-box input{
+  padding: 5px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid red;
+}
+
+.search-box button{
+  width: 25%;
+  background: linear-gradient(90deg, rgba(16, 189, 131, 0.7) 50%, rgba(235, 154, 231, 0.7) 100%);
+  color: whitesmoke;
+  padding: 15px 0;
+  border-radius: 12px;
+  font-family: 'Josefin sans', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+} 
+
+.search-box button:hover{
+  background-color: darkcyan;
+  cursor: pointer;
+}
+
+.temp{
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+
+}
+
+.description{
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.WeatherLoading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.WeatherLoading::after{
+  visibility: visible;
+  content: "Loading";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  
+
+}
