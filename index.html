@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maxwell Weather API App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Poppins:wght@300;500;800&display=swap"
-      rel="stylesheet">
-      <link rel="stylesheet" href="style2.css" type="text/css">
+      rel="stylesheet"
+    />
+    <!-- Below is the linked Stylesheet to the HTML document -->
+    <link rel="stylesheet" href="style2.css" type="text/css" />
   </head>
+
+  <!-- Below is the body of the HTML file that determines it's outlook when  -->
+  <!-- dispalyed on the browser -->
+
   <body>
+    <!-- Container of the displayed Weather parameters after search -->
 
     <div class="container">
-    <div class="input">
-      <input type="text" class="inputvalue" placeholder="Enter a city">
-      <input type="submit" value="Submit" class="button">
+      <div class="input">
+        <input type="text" class="inputvalue" placeholder="Enter a city" />
+        <input type="submit" value="Submit" class="button" />
+      </div>
+      <!-- Datas/parameters of the city weather after search -->
+
+      <div class="display">
+        <h1 class="name"></h1>
+        <p class="desc"></p>
+        <p class="temp"></p>
+      </div>
     </div>
-
-    <div class="display">
-      <h1 class="name"></h1>
-      <p class="desc"></p>
-      <p class="temp"> </p>
-
-    </div>
-    </div>
-
     
-    
-    
-
-
-
-
-
+    <!-- Below is the linked JavaScript file to the HTML document -->
     <script src="main2.js"></script>
   </body>
 </html>
