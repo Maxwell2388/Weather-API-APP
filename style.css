@@ -9,30 +9,42 @@ body{
   background: linear-gradient(90deg, rgba(5, 46, 92, 0.7) 60%, rgba(0, 212, 64, 0.7) 100%);
 }
 
+.container{
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 60px 50px;
+}
+
+
 
 .input {
+  margin-top: 20px;
   text-align: center;
-  margin: 100px;
   justify-content: center;
 }
 
 input[type="text"]{
   height: 50px;
   width: 600px;
-  background: #ec6767;
+  background: whitesmoke;
   font-family: 'Josefin' sans-serif;
   font-weight: 500;
   font-size: 20px;
   border: none;
   border-radius: 10px;
   padding: 10px 10px;
+  border: none;
+  border-bottom: 4px solid red;
+
 }
 
 input[type="submit"]{
   color: aqua;
   height: 50px;
   width: 100px;
-  background: #08f844;
+  background: #16000e75;
   font-family: 'Josefin' sans-serif;
   font-weight: 800;
   font-size: 20px;
