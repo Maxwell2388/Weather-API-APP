@@ -9,8 +9,11 @@ let temp = document.querySelector(".temp");
 
 
 
+
 // Here a function of the submit button was created and linked with the API and APIKEY to 
 // display result/Datas/Parameters of the weather of a particular location after submit/
+
+
 
 button.addEventListener("click", function(){
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=`+inputvalue.value+`&appid=52c11b98d795a397529d2ce9778d08ba`)
