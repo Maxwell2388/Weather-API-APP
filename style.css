@@ -33,6 +33,21 @@ body {
 
 /* Properties of the text when typed of the browser/ text area */
 input[type="text"] {
+  
+  
+  @media screen and (min-width: 960px) {
+    .container{
+      margin: 100px 100px;
+    }
+    
+  }
+
+  @media  screen and (max-width: 960px) {
+    .row{
+      margin: 50px 50px;
+    }
+    
+  }
   height: 70px;
   width: 600px;
   background: whitesmoke;
